@@ -1,0 +1,20 @@
+{
+  "name": "avemturismo",
+  "version": "1.0.0",
+  "description": "projeto de pratica profissional 1",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "marko": "^4.23.9",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "ligia",
+  "license": "ISC"
+}

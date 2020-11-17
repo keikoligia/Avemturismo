@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <title>Avemturismo</title>
+    <link rel="stylesheet" type="text/css"  href="views/css/estilo.css" />
+    <link rel="shortcut icon" href="res/mapamundi_logo.png" type="image/x-icon" />
+</head>
+<style>
+*{margin: 0; padding: 0;}
+@font-face{
+    font-family: slkscr;
+    src: url(res/slkscr.ttf)
+}
+body{
+    font-family: slkscr;
+	font-size: 12px;
+}
+.menu{
+    position: fixed;
+    list-style:none; 
+    border:1px solid #c0c0c0; 
+    float:left; 
+    color:#fff;
+    background:white; 
+    text-shadow:0px 0px 5px #fff; 
+}
+#player{
+    position: fixed;
+    bottom: 0;
+}
+.menu li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+}
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+.menu li a:hover{
+    background:#333; 
+    color:#fff;
+    text-shadow:0px 0px 5px #fff; 
+}
+.menu li ul{
+    position:absolute; 
+    top:25px; left:0;
+    background-color:#fff;
+    display:none; 
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border:1px solid #c0c0c0;
+     display:block;
+      width:150px;
+}
+
+</style>
+<body>
+  <audio controls id="player">
+    <source src="/res/misica.mp3" type="audio/mpeg">
+  Seu browser não suporta este player.
+  </audio>
+    <nav>
+        <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="pagSobre.html">Sobre</a></li>
+                    <li><a href="#">Qual era deseja ir?</a>
+                       <ul>
+                            <li><a href="pagModernidade.html">Modernidade</a></li>
+                            <li><a href="pagAntiguidade.html">Antiguidade</a></li>
+                        </ul>
+                  </li>
+              <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <img src="res/mapamundi.png" style="width:100%">
+
+      
+    <!--
+      <div id="googleMap" style="width:100%;height:400px;"></div>
+
+      <script>
+      function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgtA30-vi9sCy4GbABqMi6xDu5hIOOCSM&callback=myMap"></script>
+    -->
+</body>
+</html>

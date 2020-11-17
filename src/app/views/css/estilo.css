@@ -1,0 +1,93 @@
+*{margin: 0; padding: 0;}
+
+@font-face{
+    font-family: retro;
+    src: url(res/retro.ttf)
+}
+
+body{
+    font-family: retro;
+	font-size: 12px;
+}
+
+#btn{
+    position: fixed;
+    bottom: 0;
+}
+
+.menu{
+    position: fixed;
+    list-style:none; 
+    border:1px solid #c0c0c0; 
+    float:left; 
+    color:#fff;
+    background:white; 
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+
+#player{
+    position: fixed;
+    bottom: 0;
+}
+
+.menu li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid #c0c0c0; 
+}
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li a:hover{
+    background:#333; 
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc; 
+    text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li ul{
+    position:absolute; 
+    top:25px; left:0;
+    background-color:#fff;
+    display:none; 
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+     display:block;
+      width:150px;
+}
+
+#fundo {
+    opacity: 0.8;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  #modal {
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    display: none;
+  }
