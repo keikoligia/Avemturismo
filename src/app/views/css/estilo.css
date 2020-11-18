@@ -91,3 +91,60 @@ body{
     z-index: 99;
     display: none;
   }
+  .wrapper{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+  .rpin {
+    position: absolute;
+    display: block;
+    width: "5%";
+    height: "5%";
+    background-image: url('../res/pin.png') no-repeat center center;
+    background-size: contain;
+    transform: translateX(-50%) translateY(0);
+    filter: brightness(1) contrast(1.1);
+    transition: all .3s ease;
+  }
+  .rpin:hover {
+    cursor: pointer;
+    transform: translateX(-40%) scale(1.05);
+  }
+  #pin-br {
+    bottom: 56.9282%;
+    left: 56.5994%;
+  }
+  #pin-arg {
+    bottom: 35.9282%;
+    left: 43.5994%;
+  }
+  #pin-chi {
+    bottom: 42.9282%;
+    left: 38.5994%;
+  }
+  #pin-peru {
+    bottom: 62.9282%;
+    left: 33.5994%;
+  }
+  #pin-equa {
+    bottom: 75.9282%;
+    left: 29.5994%;
+  }
+  #pin-gui {
+    bottom: 83.9282%;
+    left: 47.7994%;
+  }
+  #pin-colom {
+    bottom: 83.9282%;
+    left: 34.7994%;
+  }
+  #pin-amsul{
+    bottom: 83.9282%;
+    left: 34.7994%;
+  }
+  body{
+      background-color: cadetblue;
+  }
