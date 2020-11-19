@@ -142,8 +142,87 @@ body{
     left: 34.7994%;
   }
   #pin-amsul{
-    bottom: 83.9282%;
+    bottom: 34.9282%;
+    left: 30.7994%;
+  }
+  #pin-amnorte{
+    bottom: 60.9282%;
+    left: 23.7994%;
+  }
+  
+  #pin-amcen{
+    bottom: 48.9282%;
+    left: 22.7994%;
+  }
+  
+  #pin-eu{
+    bottom: 65.9282%;
+    left: 45.7994%;
+  }
+  
+  #pin-asia{
+    bottom: 60.9282%;
+    left: 60.7994%;
+  }
+  #pin-oce{
+    bottom: 25.9282%;
+    left: 74.7994%;
+  }
+  #pin-afri{
+    bottom: 45.9282%;
+    left: 47.7994%;
+  }
+  #pin-sue{
+    bottom: 67.9282%;
+    left: 42.7994%;
+  }
+  #pin-noru{
+    bottom: 66.9282%;
+    left: 35.7994%;
+  }
+  #pin-ita{
+    bottom: 24.9282%;
     left: 34.7994%;
+  }
+  #pin-sanMa{
+    bottom: 21.9282%;
+    left: 36.7994%;
+  }
+  #pin-UK{
+    bottom: 50.9282%;
+    left: 23.7994%;
+  }
+  #pin-Es{
+    bottom: 18.9282%;
+    left: 14.7994%;
+  }
+  #pin-por{
+    bottom: 16.9282%;
+    left: 7.7994%;
+  }
+  #pin-fra{
+    bottom: 32.9282%;
+    left: 24.7994%;
+  }
+  #pin-hol{
+    bottom: 46.9282%;
+    left: 31.7994%;
+  }
+  #pin-sui{
+    bottom: 30.9282%;
+    left: 31.9994%;
+  }
+  #pin-bel{
+    bottom: 42.9282%;
+    left: 29.7994%;
+  }
+  #pin-gre{
+    bottom: 8.9282%;
+    left: 49.7994%;
+  }
+  #pin-ale{
+    bottom: 40.9282%;
+    left: 35.7994%;
   }
   body{
       background-color: cadetblue;

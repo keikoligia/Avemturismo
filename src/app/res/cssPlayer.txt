@@ -1,8 +1,0 @@
-css pra deixar footer fixo:
-    position:absolute;
-    bottom:0;
-    width:250%;
-
-css pra deixar footer fixo ao rolar a pagina:
-    position: fixed;
-    bottom: 0;

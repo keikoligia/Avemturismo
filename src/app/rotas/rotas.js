@@ -21,7 +21,7 @@ module.exports = (aplicacao) => {
 /****************  ROTAS  ****************/
 aplicacao.get('/', function(req,res) {
     res.marko(
-       require('../views/home.marko'));
+       require('../views/pagInicial.marko'));
     console.log('Acessou a pagina de ACESSO a aplicacao...');
 })
 
