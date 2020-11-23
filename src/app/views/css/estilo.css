@@ -121,8 +121,8 @@ body{
     bottom: 35.9282%;
     left: 43.5994%;
   }
-  #pin-chi {
-    bottom: 42.9282%;
+  #pin-chile {
+    bottom: 40.9282%;
     left: 38.5994%;
   }
   #pin-peru {
@@ -315,6 +315,90 @@ body{
   #pin-ind{
     bottom: 34.9282%;
     left: 37.7994%;
+  }
+  #pin-cris{
+    bottom: 27%;
+    left: 33%;
+  }
+  #pin-macchu{
+    bottom: 32.7282%;
+    left: 27.3994%;
+  }
+  #pin-itza{
+    bottom: 51.3282%;
+    left: 23.9994%;
+  }
+  #pin-coliseu{
+    bottom: 60.9282%;
+    left: 47.5994%;
+  }
+  #pin-petra{
+    bottom: 55.9282%;
+    left: 52.9994%;
+  }
+  #pin-taj{
+    bottom: 53.9282%;
+    left: 61.9994%;
+  }
+  #pin-mura{
+    bottom: 59.9282%;
+    left: 67.9994%;
+  }
+  #pin-pira{
+    bottom: 54.9282%;
+    left: 50.9994%;
+  }
+  #pin-mausoleu{
+    bottom: 60.9282%;
+    left: 50.5994%;
+  }
+  #pin-zeus{
+    bottom: 59.9282%;
+    left: 49.0994%;
+  }
+  #pin-jardim{
+    bottom: 58.9282%;
+    left: 53.9994%;
+  }
+  #pin-farol{
+    bottom: 52.9282%;
+    left: 51.9994%;
+  }
+  #pin-artemis{
+    bottom: 62.6282%;
+    left: 49.5994%;
+  }
+  #pin-colosso{
+    bottom: 58.9282%;
+    left: 49.9994%;
+  }
+  #pin-amazonia{
+    bottom: 38.9282%;
+    left: 28.9994%;
+  }
+  #pin-halong{
+    bottom: 48.9282%;
+    left: 69.2994%;
+  }
+  #pin-jeju{
+    bottom: 56.9282%;
+    left: 72.6994%;
+  }
+  #pin-komodo{
+    bottom: 35.9282%;
+    left: 71.9994%;
+  }
+  #pin-princesa{
+    bottom: 45.6282%;
+    left: 71.1994%;
+  }
+  #pin-iguaçu{
+    bottom: 27.4282%;
+    left: 30.4994%;
+  }
+  #pin-mesa{
+    bottom: 23.4282%;
+    left: 48.5994%;
   }
   body{
       background-color: cadetblue;
