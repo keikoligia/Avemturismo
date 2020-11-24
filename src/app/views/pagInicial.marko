@@ -5,7 +5,6 @@
     <!-- Aqui chamamos o nosso arquivo css externo -->
     <link rel="stylesheet" type="text/css"  href="/estatico/css/estilo.css" />
     <link rel="shortcut icon" href="/estatico/res/mapamundi_logo.png" type="image/x-icon" />
-
 </head>
 <body>
   <!--<audio controls id="player">
@@ -14,41 +13,44 @@
   </audio>-->
     <nav>
         <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="pagSobre.html">Sobre</a></li>
+              <li><a href="/pagInicial">Home</a></li>
                     <li><a href="#">Maravilhas do mundo</a>
                        <ul>
-                            <li><a href="/estatico/pagModernidade.marko">Moderno</a></li>
-                            <li><a href="/estatico/pagAntiguidade.marko">Antigo</a></li>
-                            <li><a href="/estatico/pagNatural.marko">Natural</a></li>
+                            <li><a href="/pagModernidade">Moderno</a></li>
+                            <li><a href="/pagAntiguidade">Antigo</a></li>
+                            <li><a href="/pagNatural">Natural</a></li>
                         </ul>
                   </li>
-              <li><a href="#">Contato</a></li>
         </ul>
       </nav>
       <img src="/estatico/res/mapamundi.png" style="width:100%">
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-amsul" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-amnorte" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-amcen" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-eu" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-asia" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-oce" style="width: 2%;"> 
-      <img src="/estatico/res/pin.png" class="rpin" id="pin-afri" style="width: 2%;"> 
+      <a href="/pagAmSul"><img src="/estatico/res/pin.png" class="rpin" id="pin-amsul" style="width: 2%;"></a>
+      <a href="/pagAmNorte"><img src="/estatico/res/pin.png" class="rpin" id="pin-amnorte" style="width: 2%;"></a> 
+      <img src="/estatico/res/pin.png" class="rpin" id="pin-amcen" style="width: 2%;" >
+      <a href="/pagEuropa"><img src="/estatico/res/pin.png" class="rpin" id="pin-eu" style="width: 2%;"> </a>
+      <a href="/pagAsia"><img src="/estatico/res/pin.png" class="rpin" id="pin-asia" style="width: 2%;"> </a>
+      <a href="/pagOceania"><img src="/estatico/res/pin.png" class="rpin" id="pin-oce" style="width: 2%;"> </a>
+      <a href="/pagAfrica"><img src="/estatico/res/pin.png" class="rpin" id="pin-afri" style="width: 2%;"> </a>
 
-    <!--
-      <div id="googleMap" style="width:100%;height:400px;"></div>
+    <button id="btn" onclick="abrirModal()">aaa</button>
 
-      <script>
-      function myMap() {
-      var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:5,
-      };
-      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      }
-      </script>
-      
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgtA30-vi9sCy4GbABqMi6xDu5hIOOCSM&callback=myMap"></script>
-    -->
+    <div id="fundo"></div>
+    <div id="modal">
+        <a href="#" class="fechar" onclick="fecharModal();">fechar</a>
+    </div>
+
+    <script>
+        function fecharModal()
+        {
+            document.getElementById('fundo').style.display = 'none';
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        function abrirModal()
+        {
+            document.getElementById('fundo').style.display = 'block';
+            document.getElementById('modal').style.display = 'block';
+        }
+    </script>
 </body>
 </html>

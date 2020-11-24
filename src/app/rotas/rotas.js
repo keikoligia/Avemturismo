@@ -1,10 +1,6 @@
-// chamando a classe usuarios_controler
-const UsuarioControlador = require('../controllers/usuarios_controllers');
-const usuarioCont = new UsuarioControlador();
-
 // chamando a classe clientes_controler
-const ClienteControlador = require('../controllers/clientes_controllers');
-const clienteCont = new ClienteControlador();
+const PontoControlador = require('../controllers/pt_controllers');
+const pontoCont = new PontoControlador();
 
 module.exports = (aplicacao) => {
 
@@ -25,23 +21,23 @@ aplicacao.get('/', function(req,res) {
     console.log('Acessou a pagina de ACESSO a aplicacao...');
 })
 
-aplicacao.get('/pagAntiguidade', clienteCont.listaCliente());
+aplicacao.get('/pagAmSul', pontoCont.listaAmSul());
 
-aplicacao.get('/pagModernidade', clienteCont.listaCliente());
+aplicacao.get('/pagAmNorte', pontoCont.listaAmNorte());
 
-aplicacao.get('/home', clienteCont.listaCliente());
+aplicacao.get('/pagAsia', pontoCont.listaAsia());
 
-/*
-aplicacao.post('/validaBDUsuarios', usuarioCont.validaAcessoUsuario());
+aplicacao.get('/pagEuropa', pontoCont.listaEuropa());
 
-aplicacao.post('/insertBDClientes', clienteCont.insereNovoCliente());
+aplicacao.get('/pagOceania', pontoCont.listaOceania());
 
-aplicacao.get('/listaDadosClientes/:id', clienteCont.listaDadosCliente());
+aplicacao.get('/pagNatural', pontoCont.listaNatural());
 
-aplicacao.get('/removeCliente/:id', clienteCont.excluiCliente());
+aplicacao.get('/pagAntiguidade', pontoCont.listaAntiguidade());
 
-aplicacao.post('/updateBDCliente', clienteCont.atualizaDadosCliente());
-*/
+aplicacao.get('/pagModernidade', pontoCont.listaModernidade());
+
+aplicacao.get('/pagInicial', pontoCont.listaCont());
 }
 
 
