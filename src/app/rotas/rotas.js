@@ -13,7 +13,6 @@ module.exports = (aplicacao) => {
         next();
     });
 
-
 /****************  ROTAS  ****************/
 aplicacao.get('/', function(req,res) {
     res.marko(
@@ -21,21 +20,21 @@ aplicacao.get('/', function(req,res) {
     console.log('Acessou a pagina de ACESSO a aplicacao...');
 })
 
-aplicacao.get('/pagAmSul', pontoCont.listaAmSul());
+aplicacao.post('/pagAmSul/:id', pontoCont.listaAmSul());
 
-aplicacao.get('/pagAmNorte', pontoCont.listaAmNorte());
+aplicacao.post('/pagAmNorte', pontoCont.listaAmNorte());
 
-aplicacao.get('/pagAsia', pontoCont.listaAsia());
+aplicacao.post('/pagAsia', pontoCont.listaAsia());
 
-aplicacao.get('/pagEuropa', pontoCont.listaEuropa());
+aplicacao.post('/pagEuropa', pontoCont.listaEuropa());
 
-aplicacao.get('/pagOceania', pontoCont.listaOceania());
+aplicacao.post('/pagOceania', pontoCont.listaOceania());
 
-aplicacao.get('/pagNatural', pontoCont.listaNatural());
+aplicacao.post('/pagNatural', pontoCont.listaNatural());
 
-aplicacao.get('/pagAntiguidade', pontoCont.listaAntiguidade());
+aplicacao.post('/pagAntiguidade', pontoCont.listaAntiguidade());
 
-aplicacao.get('/pagModernidade', pontoCont.listaModernidade());
+aplicacao.post('/pagModernidade', pontoCont.listaModernidade());
 
 aplicacao.get('/pagInicial', pontoCont.listaCont());
 }

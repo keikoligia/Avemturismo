@@ -19,7 +19,8 @@ class PontoControllers
     listaAmSul() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
+                console.log(resultados);
                 res.marko(
                     require('../views/pagAmSul.marko'),
                     {  amSul: resultados   });
@@ -29,7 +30,7 @@ class PontoControllers
     listaAmNorte() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagAmNorte.marko'),
                     {  amNorte: resultados   });
@@ -39,7 +40,7 @@ class PontoControllers
     listaAsia() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagAsia.marko'),
                     {  asia: resultados   });
@@ -49,7 +50,7 @@ class PontoControllers
     listaEuropa() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagEuropa.marko'),
                     {  europa: resultados   });
@@ -59,7 +60,7 @@ class PontoControllers
     listaOceania() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagOceania.marko'),
                     {  oceania: resultados   });
@@ -69,7 +70,7 @@ class PontoControllers
     listaAntiguidade() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagAntiguidade.marko'),
                     {  antiguidade: resultados   });
@@ -79,7 +80,7 @@ class PontoControllers
     listaModernidade() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagModernidade.marko'),
                     {  modernidade: resultados   });
@@ -89,7 +90,7 @@ class PontoControllers
     listaNatural() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
+            pontoDAO.selectNaTabelaPt(function (erro, resultados) {
                 res.marko(
                     require('../views/pagNatural.marko'),
                     {  natural: resultados   });

@@ -15,6 +15,7 @@ body{
     bottom: 0;
 }
 
+/*CSS do menu*/
 .menu{
     position: fixed;
     list-style:none; 
@@ -69,337 +70,434 @@ body{
 }
 
 #fundo {
-    opacity: 0.8;
-    background-color: #000;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 98;
-    top: 0;
-    left: 0;
-    display: none;
-  }
+  opacity: 0.8;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  display: none;
+}
   
-  #modal {
-    width: 150px;
-    height: 150px;
-    left: 50%;
-    top: 50%;
-    margin: -75px 0 0 -75px;
-    position: fixed;
-    background-color: #fff;
-    z-index: 99;
-    display: none;
-  }
-  .wrapper{
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    height: 100%;
-  }
-  .rpin {
-    position: absolute;
-    display: block;
-    width: "5%";
-    height: "5%";
-    background-image: url('../res/pin.png') no-repeat center center;
-    background-size: contain;
-    transform: translateX(-50%) translateY(0);
-    filter: brightness(1) contrast(1.1);
-    transition: all .3s ease;
-  }
-  .rpin:hover {
-    cursor: pointer;
-    transform: translateX(-40%) scale(1.05);
-  }
-  #pin-br {
-    bottom: 56.9282%;
-    left: 56.5994%;
-  }
-  #pin-arg {
-    bottom: 35.9282%;
-    left: 43.5994%;
-  }
-  #pin-chile {
-    bottom: 40.9282%;
-    left: 38.5994%;
-  }
-  #pin-peru {
-    bottom: 62.9282%;
-    left: 33.5994%;
-  }
-  #pin-equa {
-    bottom: 75.9282%;
-    left: 29.5994%;
-  }
-  #pin-gui {
-    bottom: 83.9282%;
-    left: 47.7994%;
-  }
-  #pin-colom {
-    bottom: 83.9282%;
-    left: 34.7994%;
-  }
-  #pin-amsul{
-    bottom: 34.9282%;
-    left: 30.7994%;
-  }
-  #pin-amnorte{
-    bottom: 60.9282%;
-    left: 23.7994%;
-  }
-  
-  #pin-amcen{
-    bottom: 48.9282%;
-    left: 22.7994%;
-  }
-  
-  #pin-eu{
-    bottom: 65.9282%;
-    left: 45.7994%;
-  }
-  
-  #pin-asia{
-    bottom: 60.9282%;
-    left: 60.7994%;
-  }
-  #pin-oce{
-    bottom: 25.9282%;
-    left: 74.7994%;
-  }
-  #pin-afri{
-    bottom: 45.9282%;
-    left: 47.7994%;
-  }
-  #pin-sue{
-    bottom: 67.9282%;
-    left: 42.7994%;
-  }
-  #pin-noru{
-    bottom: 66.9282%;
-    left: 35.7994%;
-  }
-  #pin-ita{
-    bottom: 24.9282%;
-    left: 34.7994%;
-  }
-  #pin-sanMa{
-    bottom: 21.9282%;
-    left: 36.7994%;
-  }
-  #pin-UK{
-    bottom: 50.9282%;
-    left: 23.7994%;
-  }
-  #pin-Es{
-    bottom: 18.9282%;
-    left: 14.7994%;
-  }
-  #pin-por{
-    bottom: 16.9282%;
-    left: 7.7994%;
-  }
-  #pin-fra{
-    bottom: 32.9282%;
-    left: 24.7994%;
-  }
-  #pin-hol{
-    bottom: 46.9282%;
-    left: 31.7994%;
-  }
-  #pin-sui{
-    bottom: 30.9282%;
-    left: 31.9994%;
-  }
-  #pin-bel{
-    bottom: 42.9282%;
-    left: 29.7994%;
-  }
-  #pin-gre{
-    bottom: 8.9282%;
-    left: 49.7994%;
-  }
-  #pin-ale{
-    bottom: 40.9282%;
-    left: 35.7994%;
-  }
-  #pin-cuba{
-    bottom: 59.9282%;
-    left: 42.7994%;
-  }
-  #pin-cari{
-    bottom: 25.9282%;
-    left: 37.7994%;
-  }
-  #pin-eua{
-    bottom: 36.9282%;
-    left: 50.7994%;
-  }
-  #pin-cana{
-    bottom: 63.9282%;
-    left: 47.7994%;
-  }
-  #pin-mex{
-    bottom: 14.9282%;
-    left: 46.7994%;
-  }
-  #pin-aus{
-    bottom: 35.9282%;
-    left: 39.7994%;
-  }
-  #pin-neo{
-    bottom: 14.9282%;
-    left: 72.7994%;
-  }
-  #pin-rus{
-    bottom: 80.9282%;
-    left: 50.7994%;
-  }
-  #pin-jap{
-    bottom: 52.9282%;
-    left: 74.7994%;
-  }
-  #pin-cor{
-    bottom: 52.9282%;
-    left: 67.7994%;
-  }
-  #pin-mongo{
-    bottom: 63.9282%;
-    left: 52.7994%;
-  }
-  #pin-caza{
-    bottom: 65.9282%;
-    left: 31.7994%;
-  }
-  #pin-afe{
-    bottom: 50.4282%;
-    left: 29.9994%;
-  }
-  #pin-ara{
-    bottom: 39.9282%;
-    left: 16.7994%;
-  }
-  #pin-emi{
-    bottom: 38.9282%;
-    left: 22.7994%;
-  }
-  #pin-iem{
-    bottom: 29.9282%;
-    left: 18.7994%;
-  }
-  #pin-vie{
-    bottom: 26.9282%;
-    left: 55.9994%;
-  }
-  #pin-laos{
-    bottom: 34.9282%;
-    left: 52.3994%;
-  }
-  #pin-cambo{
-    bottom: 25.9282%;
-    left: 53.7994%;
-  }
-  #pin-ira{
-    bottom: 48.9282%;
-    left: 15.9994%;
-  }
-  #pin-tur{
-    bottom: 55.9282%;
-    left: 10.7994%;
-  }
-  #pin-chi{
-    bottom: 50.9282%;
-    left: 52.7994%;
-  }
-  #pin-ind{
-    bottom: 34.9282%;
-    left: 37.7994%;
-  }
-  #pin-cris{
-    bottom: 27%;
-    left: 33%;
-  }
-  #pin-macchu{
-    bottom: 32.7282%;
-    left: 27.3994%;
-  }
-  #pin-itza{
-    bottom: 51.3282%;
-    left: 23.9994%;
-  }
-  #pin-coliseu{
-    bottom: 60.9282%;
-    left: 47.5994%;
-  }
-  #pin-petra{
-    bottom: 55.9282%;
-    left: 52.9994%;
-  }
-  #pin-taj{
-    bottom: 53.9282%;
-    left: 61.9994%;
-  }
-  #pin-mura{
-    bottom: 59.9282%;
-    left: 67.9994%;
-  }
-  #pin-pira{
-    bottom: 54.9282%;
-    left: 50.9994%;
-  }
-  #pin-mausoleu{
-    bottom: 60.9282%;
-    left: 50.5994%;
-  }
-  #pin-zeus{
-    bottom: 59.9282%;
-    left: 49.0994%;
-  }
-  #pin-jardim{
-    bottom: 58.9282%;
-    left: 53.9994%;
-  }
-  #pin-farol{
-    bottom: 52.9282%;
-    left: 51.9994%;
-  }
-  #pin-artemis{
-    bottom: 62.6282%;
-    left: 49.5994%;
-  }
-  #pin-colosso{
-    bottom: 58.9282%;
-    left: 49.9994%;
-  }
-  #pin-amazonia{
-    bottom: 38.9282%;
-    left: 28.9994%;
-  }
-  #pin-halong{
-    bottom: 48.9282%;
-    left: 69.2994%;
-  }
-  #pin-jeju{
-    bottom: 56.9282%;
-    left: 72.6994%;
-  }
-  #pin-komodo{
-    bottom: 35.9282%;
-    left: 71.9994%;
-  }
-  #pin-princesa{
-    bottom: 45.6282%;
-    left: 71.1994%;
-  }
-  #pin-iguaçu{
-    bottom: 27.4282%;
-    left: 30.4994%;
-  }
-  #pin-mesa{
-    bottom: 23.4282%;
-    left: 48.5994%;
-  }
-  body{
-      background-color: cadetblue;
-  }
+#modal {
+  width: 500px;
+  height: 500px;
+  left: 35%;
+  top: 25%;
+  margin: -75px 0 0 -75px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+  display: none;
+}
+.wrapper{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+.rpin {
+  position: absolute;
+  display: block;
+  width: "5%";
+  height: "5%";
+  background-image: url('../res/pin.png') no-repeat center center;
+  background-size: contain;
+  transform: translateX(-50%) translateY(0);
+  filter: brightness(1) contrast(1.1);
+  transition: all .3s ease;
+}
+.rpin:hover {
+  cursor: pointer;
+  transform: translateX(-40%) scale(1.05);
+}
+#pin-br {
+  bottom: 56.9282%;
+  left: 56.5994%;
+}
+#pin-arg {
+  bottom: 35.9282%;
+  left: 43.5994%;
+}
+#pin-chile {
+  bottom: 40.9282%;
+  left: 38.5994%;
+}
+#pin-peru {
+  bottom: 62.9282%;
+  left: 33.5994%;
+}
+#pin-equa {
+  bottom: 75.9282%;
+  left: 29.5994%;
+}
+#pin-gui {
+  bottom: 83.9282%;
+  left: 47.7994%;
+}
+#pin-colom {
+  bottom: 83.9282%;
+  left: 34.7994%;
+}
+#pin-amsul{
+  bottom: 34.9282%;
+  left: 30.7994%;
+}
+#pin-amnorte{
+  bottom: 60.9282%;
+  left: 23.7994%;
+}
+
+#pin-amcen{
+  bottom: 48.9282%;
+  left: 22.7994%;
+}
+
+#pin-eu{
+  bottom: 65.9282%;
+  left: 45.7994%;
+}
+
+#pin-asia{
+  bottom: 60.9282%;
+  left: 60.7994%;
+}
+#pin-oce{
+  bottom: 25.9282%;
+  left: 74.7994%;
+}
+#pin-afri{
+  bottom: 45.9282%;
+  left: 47.7994%;
+}
+#pin-sue{
+  bottom: 67.9282%;
+  left: 42.7994%;
+}
+#pin-noru{
+  bottom: 66.9282%;
+  left: 35.7994%;
+}
+#pin-ita{
+  bottom: 24.9282%;
+  left: 34.7994%;
+}
+#pin-sanMa{
+  bottom: 21.9282%;
+  left: 36.7994%;
+}
+#pin-UK{
+  bottom: 50.9282%;
+  left: 23.7994%;
+}
+#pin-Es{
+  bottom: 18.9282%;
+  left: 14.7994%;
+}
+#pin-por{
+  bottom: 16.9282%;
+  left: 7.7994%;
+}
+#pin-fra{
+  bottom: 32.9282%;
+  left: 24.7994%;
+}
+#pin-hol{
+  bottom: 46.9282%;
+  left: 31.7994%;
+}
+#pin-sui{
+  bottom: 30.9282%;
+  left: 31.9994%;
+}
+#pin-bel{
+  bottom: 42.9282%;
+  left: 29.7994%;
+}
+#pin-gre{
+  bottom: 8.9282%;
+  left: 49.7994%;
+}
+#pin-ale{
+  bottom: 40.9282%;
+  left: 35.7994%;
+}
+#pin-cuba{
+  bottom: 59.9282%;
+  left: 42.7994%;
+}
+#pin-cari{
+  bottom: 25.9282%;
+  left: 37.7994%;
+}
+#pin-eua{
+  bottom: 36.9282%;
+  left: 50.7994%;
+}
+#pin-cana{
+  bottom: 63.9282%;
+  left: 47.7994%;
+}
+#pin-mex{
+  bottom: 14.9282%;
+  left: 46.7994%;
+}
+#pin-aus{
+  bottom: 35.9282%;
+  left: 39.7994%;
+}
+#pin-neo{
+  bottom: 14.9282%;
+  left: 72.7994%;
+}
+#pin-rus{
+  bottom: 80.9282%;
+  left: 50.7994%;
+}
+#pin-jap{
+  bottom: 52.9282%;
+  left: 74.7994%;
+}
+#pin-cor{
+  bottom: 52.9282%;
+  left: 67.7994%;
+}
+#pin-mongo{
+  bottom: 63.9282%;
+  left: 52.7994%;
+}
+#pin-caza{
+  bottom: 65.9282%;
+  left: 31.7994%;
+}
+#pin-afe{
+  bottom: 50.4282%;
+  left: 29.9994%;
+}
+#pin-ara{
+  bottom: 39.9282%;
+  left: 16.7994%;
+}
+#pin-emi{
+  bottom: 38.9282%;
+  left: 22.7994%;
+}
+#pin-iem{
+  bottom: 29.9282%;
+  left: 18.7994%;
+}
+#pin-vie{
+  bottom: 26.9282%;
+  left: 55.9994%;
+}
+#pin-laos{
+  bottom: 34.9282%;
+  left: 52.3994%;
+}
+#pin-cambo{
+  bottom: 25.9282%;
+  left: 53.7994%;
+}
+#pin-ira{
+  bottom: 48.9282%;
+  left: 15.9994%;
+}
+#pin-tur{
+  bottom: 55.9282%;
+  left: 10.7994%;
+}
+#pin-chi{
+  bottom: 50.9282%;
+  left: 52.7994%;
+}
+#pin-ind{
+  bottom: 34.9282%;
+  left: 37.7994%;
+}
+#pin-cris{
+  bottom: 27%;
+  left: 33%;
+}
+#pin-macchu{
+  bottom: 32.7282%;
+  left: 27.3994%;
+}
+#pin-itza{
+  bottom: 51.3282%;
+  left: 23.9994%;
+}
+#pin-coliseu{
+  bottom: 60.9282%;
+  left: 47.5994%;
+}
+#pin-petra{
+  bottom: 55.9282%;
+  left: 52.9994%;
+}
+#pin-taj{
+  bottom: 53.9282%;
+  left: 61.9994%;
+}
+#pin-mura{
+  bottom: 59.9282%;
+  left: 67.9994%;
+}
+#pin-pira{
+  bottom: 54.9282%;
+  left: 50.9994%;
+}
+#pin-mausoleu{
+  bottom: 60.9282%;
+  left: 50.5994%;
+}
+#pin-zeus{
+  bottom: 59.9282%;
+  left: 49.0994%;
+}
+#pin-jardim{
+  bottom: 58.9282%;
+  left: 53.9994%;
+}
+#pin-farol{
+  bottom: 52.9282%;
+  left: 51.9994%;
+}
+#pin-artemis{
+  bottom: 62.6282%;
+  left: 49.5994%;
+}
+#pin-colosso{
+  bottom: 58.9282%;
+  left: 49.9994%;
+}
+#pin-amazonia{
+  bottom: 38.9282%;
+  left: 28.9994%;
+}
+#pin-halong{
+  bottom: 48.9282%;
+  left: 69.2994%;
+}
+#pin-jeju{
+  bottom: 56.9282%;
+  left: 72.6994%;
+}
+#pin-komodo{
+  bottom: 35.9282%;
+  left: 71.9994%;
+}
+#pin-princesa{
+  bottom: 45.6282%;
+  left: 71.1994%;
+}
+#pin-iguaçu{
+  bottom: 27.4282%;
+  left: 30.4994%;
+}
+#pin-mesa{
+  bottom: 23.4282%;
+  left: 48.5994%;
+}
+body{
+    background-color: cadetblue;
+}
+/*CSS do Carousel que mostra os pins*/
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

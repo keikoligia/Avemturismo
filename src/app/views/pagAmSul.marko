@@ -8,29 +8,95 @@
 </head>
 <body>
     <div class="wrapper">
-    <nav>
-        <ul class="menu">
-              <li><a href="/pagInicial">Home</a></li>
+        <nav>
+            <ul class="menu">
+                <li><a href="/pagInicial">Home</a></li>
                     <li><a href="#">Maravilhas do mundo</a>
-                       <ul>
+                    <ul>
                             <li><a href="/pagModernidade">Moderno</a></li>
                             <li><a href="/pagAntiguidade">Antigo</a></li>
                             <li><a href="/pagNatural">Natural</a></li>
                         </ul>
-                  </li>
-        </ul>
-      </nav>
-      <img src="/estatico/res/amsul.png" style="width: 90%; height: 90%;">
-      
-            <!--<img src="res/amsul.png" style="width:100%">-->
-            <!--a class="rpin" id="pin-br"></a>-->
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-br" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-arg" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-chile" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-peru" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-equa" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-gui" style="width: 2%;">
-            <img src="/estatico/res/pin.png" class="rpin" id="pin-colom" style="width: 2%;">
-</div>
+                    </li>
+            </ul>
+        </nav>
+        
+        <img src="/estatico/res/amsul.png" style="width: 90%; height: 90%;">
+        <!--<img src="res/amsul.png" style="width:100%">-->
+        <!--a class="rpin" id="pin-br"></a>-->
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-br" style="width: 2%;" onclick="abrirModal();">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-arg" style="width: 2%;">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-chile" style="width: 2%;">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-peru" style="width: 2%;">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-equa" style="width: 2%;">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-gui" style="width: 2%;">
+        <img src="/estatico/res/pin.png" class="rpin" id="pin-colom" style="width: 2%;">
+    </div>
+
+    <div id="fundo"></div>
+
+    <div id="modal">
+        <div class="slideshow-container" for(ptSul in data.amSul) >
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="${ptSul.urlFoto}" style="width:100%">
+              <div class="text">${ptSul.nomePonto}</div>
+              <div class="text">${ptSul.descricao}</div>
+            </div>
+        </div>
+            
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <a href="#" class="fechar" onclick="fecharModal();">fechar</a>
+    </div>
+
+    <script>
+        function fecharModal()
+        {
+            document.getElementById('fundo').style.display = 'none';
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        function abrirModal()
+        {
+            document.getElementById('fundo').style.display = 'block';
+            document.getElementById('modal').style.display = 'block';
+        }
+        var slideIndex = 1;
+            showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
 </body>
 </html>
