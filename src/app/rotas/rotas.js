@@ -23,13 +23,9 @@ aplicacao.get('/', function(req,res) {
 
 aplicacao.get('/pagAmSul', pontoCont.listaAmSul());
 
-aplicacao.get('/pagAmCentral', pontoCont.listaAmCentral());
-
 aplicacao.get('/pagAmNorte', pontoCont.listaAmNorte());
 
 aplicacao.get('/pagAsia', pontoCont.listaAsia());
-
-aplicacao.get('/pagAfrica', pontoCont.listaAfrica());
 
 aplicacao.get('/pagEuropa', pontoCont.listaEuropa());
 

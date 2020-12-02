@@ -25,15 +25,6 @@ class PontoControllers
                     {  amSul: resultados   });
             });
     }}
-    listaAmCentral() {
-        return function (req, res) {
-            const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
-                res.marko(
-                    require('../views/pagAmCentral.marko'),
-                    {  amCentral: resultados   });
-            });
-    }}
 
     listaAmNorte() {
         return function (req, res) {
@@ -52,15 +43,6 @@ class PontoControllers
                 res.marko(
                     require('../views/pagAsia.marko'),
                     {  asia: resultados   });
-            });
-    }}
-    listaAfrica() {
-        return function (req, res) {
-            const pontoDAO = new Ponto_dao(db);
-            pontoDAO.selectNaTabelaPais(function (erro, resultados) {
-                res.marko(
-                    require('../views/pagAfrica.marko'),
-                    {  africa: resultados   });
             });
     }}
 
