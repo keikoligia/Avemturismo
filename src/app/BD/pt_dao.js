@@ -14,13 +14,19 @@ class Ponto_dao
 
     selectPaisPonto(req){
         return new Promise((resolve,reject) => {
-            var selectPaisPonto = 'select idpontoturistico from pais_pontoturistico where' + req.idpontoturistico + '= idpontoturistico in(select idpontoturistico from pontoturisticos)';
+            var selectPaisPonto = 'select idpontoturistico from pontoturistico where idpontoturistico in (select idpontoturistico from pais_pontoturistico where idpontoturistico = ' + req.id + ')';
+            console.log("paisponto: " + selectPaisPonto);
             this._db.query(selectPaisPonto, function (erro, result) {
                 if (erro) {
                     console.log(erro);
                     return reject('ERRO NO SELECT DO NOVO REGISTRO NA TAB PRODUTO NO BD');
                 }
-                else { return resolve(); }
+                else { /*
+                    result = JSON.parse(JSON.stringify(result));
+                    var resultSelect = result.idpontoturistico[0];
+                    console.log(resultSelect);*/
+                    return resolve(); 
+                }
             }) 
         })}
 

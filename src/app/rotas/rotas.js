@@ -20,7 +20,7 @@ aplicacao.get('/', function(req,res) {
     console.log('Acessou a pagina de ACESSO a aplicacao...');
 })
 
-aplicacao.post('/pagAmSul/:id', pontoCont.listaAmSul());
+aplicacao.get('/pagAmSul/:id?', pontoCont.listaAmSul());
 
 aplicacao.post('/pagAmNorte', pontoCont.listaAmNorte());
 
@@ -38,5 +38,3 @@ aplicacao.post('/pagModernidade', pontoCont.listaModernidade());
 
 aplicacao.get('/pagInicial', pontoCont.listaCont());
 }
-
-

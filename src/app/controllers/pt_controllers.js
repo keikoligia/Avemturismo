@@ -15,7 +15,7 @@ class PontoControllers
                 {  pais: resultados   });
         });
     }}
-
+/*
     listaAmSul() {
         return function (req, res) {
             const pontoDAO = new Ponto_dao(db);
@@ -25,6 +25,25 @@ class PontoControllers
                     require('../views/pagAmSul.marko'),
                     {  amSul: resultados   });
             });
+    }}
+*/
+    listaAmSul() {
+    return function (req, res) {
+        const pontoDAO = new Ponto_dao(db);
+        console.log(req.params.id);
+        if(req.params.id)
+        pontoDAO.selectPaisPonto(req.params) 
+        .then(resultados => {
+            for(var i =0; i < resultados.length; i++){
+                var alterPt = 'alter table pin add column idpt varchar(20)';
+            }
+            return res.marko( require('../views/pagAmSul.marko'),//select * pins
+            {  amSul: resultados   })
+        }).catch(erro => console.log(erro));
+        else{
+            res.marko(
+                require('../views/pagAmSul.marko'));
+        }
     }}
 
     listaAmNorte() {

@@ -42,71 +42,71 @@ select * from PontoTuristico
 insert into Pais values(1,  'Rússia',           '145 milhões',   17100000)
 insert into Pais values(2,  'Japão',            '127 milhões',   377915)
 insert into Pais values(3,  'Itália',           '60,40 milhões', 301338)
-insert into Pais values(4,  'San Marino',       '34 mil',        61.2)
-insert into Pais values(5,  'Suécia',           '10 milhões',    450295)
-insert into Pais values(6,  'Noruega',          '5,5 milhões',   385207)
-insert into Pais values(7,  'Coréia do Sul',    '52 milhões',    100210)
-insert into Pais values(8,  'Mongólia',         '3,2 milhões',   1564000)
-insert into Pais values(9,  'Cazaquistão',      '18,5 milhões',  2725000)
-insert into Pais values(10, 'Afeganistão',      '37 milhões',    652860)
-insert into Pais values(11, 'Congo',            '5,2 milhões',   2345000)
-insert into Pais values(12, 'Nigéria',          '196 milhões',   923768)
-insert into Pais values(13, 'Angola',           '30,8 milhões',  1247000)
-insert into Pais values(14, 'Marrocos',         '36 milhões',    446550)
-insert into Pais values(15, 'Líbia',            '6,7 milhões',   1760000)
-insert into Pais values(16, 'Egito',            '98,5 milhões',  1010000)
-insert into Pais values(17, 'Etiópia',          '110 milhões',   1104000)
-insert into Pais values(18, 'Somália',          '15,01 milhões', 637655)
-insert into Pais values(19, 'Ruanda',           '12,3 milhões',  26338)
-insert into Pais values(20, 'Cuba',             '11,34 milhões', 109884)
-insert into Pais values(21, 'França',           '66,99 milhões', 643801
-insert into Pais values(22, 'Holanda',          '17,28 milhões', 41543)
-insert into Pais values(23, 'Suíça',            '8,57 milhões',  41285)
-insert into Pais values(24, 'Bélgica',          '11,46 milhões', 30689)
-insert into Pais values(25, 'México',           '126,2 milhões', 1973000)
-insert into Pais values(26, 'Canadá',           '40 milhões',    9985000)
-insert into Pais values(27, 'Estado Unidos',    '328,2 milhões', 9834000)
-insert into Pais values(28, 'Panamá',           '4,177 milhões', 75517)
-insert into Pais values(29, 'Caribe',           '44,42 milhões', 2754000)
-insert into Pais values(30, 'Guiana',           '779 mil',       214969)
-insert into Pais values(31, 'Colômbia',         '49,65 milhões', 1143000)
-insert into Pais values(32, 'Bolívia',          '11,35 milhões', 1099000)
-insert into Pais values(33, 'Venezuela',        '28,87 milhões', 916445)
-insert into Pais values(34, 'Chile',            '18,73 milhões', 756950)
-insert into Pais values(35, 'Peru',             '31,99 milhões', 1285000)
-insert into Pais values(36, 'Argentina',        '44,5 milhões',  2780000)
-insert into Pais values(37, 'Brasil',           '209,5 milhões', 8516000)
-insert into Pais values(38, 'Inglaterra',       '56 milhões',    130395)
-insert into Pais values(39, 'Escócia',          '5,5 milhões',   77910)
-insert into Pais values(40, 'País de Gales',    '3 milhões',     20735)
-insert into Pais values(41, 'Irlanda do Norte', '2 milhões',     14130)
-insert into Pais values(42, 'Vietnã',           '95,5 milhões',  331212)
-insert into Pais values(43, 'Laos',             '7 milhões',     237995)
-insert into Pais values(44, 'Camboja',          '16 milhões',    181035)
-insert into Pais values(45, 'Tailândia',        '69,5 milhões',  513120)
-insert into Pais values(46, 'Mayanmar',         '58 milhões',    676575)
-insert into Pais values(47, 'Arábia Saudita',   '34 milhões',    2150000)
-insert into Pais values(48, 'Bahrein',          '1,5 milhões',   765.3)
-insert into Pais values(49, 'Emirados Árabes',  '10 milhões',    83600)
-insert into Pais values(50, 'Iêmen',            '28,5 milhões',  527968)
-insert into Pais values(51, 'Kuwait',           '4 milhões',     17818)
-insert into Pais values(52, 'Omã',              '5 milhões',     309501)
-insert into Pais values(53, 'Catar',            '3 milhões',     11571)
-insert into Pais values(54, 'Espanha',          '47 milhões',    505990)
-insert into Pais values(55, 'Portugal',         '10 milhões',    92212)
-insert into Pais values(56, 'Iraque',           '38,5 milhões',  437072)
-insert into Pais values(57, 'Turquia',          '82 milhões',    783562)
-insert into Pais values(58, 'Austrália',        '25 milhões',    7692000)
-insert into Pais values(59, 'Nova Zelândia',    '4,8 milhões',   2680212)
-insert into Pais values(60, 'Grécia',           '10,7 milhões',  131957)
-insert into Pais values(61, 'África do Sul',    '57,8 milhões',  1220000)
-insert into Pais values(62, 'Equador',          '17,1 milhões',  283560)
-insert into Pais values(63, 'China',            '1,393 bilhão',  9597000)
-insert into Pais values(64, 'Alemanha',         '83 milhões',    357386)
-insert into Pais values(65, 'Indonésia',        '267,7 milhões', 1905000)
-insert into Pais values(66, 'Filipinas',        '106,7 milhões', 300000)
-insert into Pais values(67, 'Índia',            '1,353 bilhão',  3287000)
-insert into Pais values(68, 'Jordânia',         '9,956 milhões', 89342)
+insert into Pais values(4,  'San Marino',       '34 mil',        61.2);
+insert into Pais values(5,  'Suécia',           '10 milhões',    450295);
+insert into Pais values(6,  'Noruega',          '5,5 milhões',   385207);
+insert into Pais values(7,  'Coréia do Sul',    '52 milhões',    100210);
+insert into Pais values(8,  'Mongólia',         '3,2 milhões',   1564000);
+insert into Pais values(9,  'Cazaquistão',      '18,5 milhões',  2725000);
+insert into Pais values(10, 'Afeganistão',      '37 milhões',    652860);
+insert into Pais values(11, 'Congo',            '5,2 milhões',   2345000);
+insert into Pais values(12, 'Nigéria',          '196 milhões',   923768);
+insert into Pais values(13, 'Angola',           '30,8 milhões',  1247000);
+insert into Pais values(14, 'Marrocos',         '36 milhões',    446550);
+insert into Pais values(15, 'Líbia',            '6,7 milhões',   1760000);
+insert into Pais values(16, 'Egito',            '98,5 milhões',  1010000);
+insert into Pais values(17, 'Etiópia',          '110 milhões',   1104000);
+insert into Pais values(18, 'Somália',          '15,01 milhões', 637655);
+insert into Pais values(19, 'Ruanda',           '12,3 milhões',  26338);
+insert into Pais values(20, 'Cuba',             '11,34 milhões', 109884);
+insert into Pais values(21, 'França',           '66,99 milhões', 643801);
+insert into Pais values(22, 'Holanda',          '17,28 milhões', 41543);
+insert into Pais values(23, 'Suíça',            '8,57 milhões',  41285);
+insert into Pais values(24, 'Bélgica',          '11,46 milhões', 30689);
+insert into Pais values(25, 'México',           '126,2 milhões', 1973000);
+insert into Pais values(26, 'Canadá',           '40 milhões',    9985000);
+insert into Pais values(27, 'Estado Unidos',    '328,2 milhões', 9834000);
+insert into Pais values(28, 'Panamá',           '4,177 milhões', 75517);
+insert into Pais values(29, 'Caribe',           '44,42 milhões', 2754000);
+insert into Pais values(30, 'Guiana',           '779 mil',       214969);
+insert into Pais values(31, 'Colômbia',         '49,65 milhões', 1143000);
+insert into Pais values(32, 'Bolívia',          '11,35 milhões', 1099000);
+insert into Pais values(33, 'Venezuela',        '28,87 milhões', 916445);
+insert into Pais values(34, 'Chile',            '18,73 milhões', 756950);
+insert into Pais values(35, 'Peru',             '31,99 milhões', 1285000);
+insert into Pais values(36, 'Argentina',        '44,5 milhões',  2780000);
+insert into Pais values(37, 'Brasil',           '209,5 milhões', 8516000);
+insert into Pais values(38, 'Inglaterra',       '56 milhões',    130395);
+insert into Pais values(39, 'Escócia',          '5,5 milhões',   77910);
+insert into Pais values(40, 'País de Gales',    '3 milhões',     20735);
+insert into Pais values(41, 'Irlanda do Norte', '2 milhões',     14130);
+insert into Pais values(42, 'Vietnã',           '95,5 milhões',  331212);
+insert into Pais values(43, 'Laos',             '7 milhões',     237995);
+insert into Pais values(44, 'Camboja',          '16 milhões',    181035);
+insert into Pais values(45, 'Tailândia',        '69,5 milhões',  513120);
+insert into Pais values(46, 'Mayanmar',         '58 milhões',    676575);
+insert into Pais values(47, 'Arábia Saudita',   '34 milhões',    2150000);
+insert into Pais values(48, 'Bahrein',          '1,5 milhões',   765.3);
+insert into Pais values(49, 'Emirados Árabes',  '10 milhões',    83600);
+insert into Pais values(50, 'Iêmen',            '28,5 milhões',  527968);
+insert into Pais values(51, 'Kuwait',           '4 milhões',     17818);
+insert into Pais values(52, 'Omã',              '5 milhões',     309501);
+insert into Pais values(53, 'Catar',            '3 milhões',     11571);
+insert into Pais values(54, 'Espanha',          '47 milhões',    505990);
+insert into Pais values(55, 'Portugal',         '10 milhões',    92212);
+insert into Pais values(56, 'Iraque',           '38,5 milhões',  437072);
+insert into Pais values(57, 'Turquia',          '82 milhões',    783562);
+insert into Pais values(58, 'Austrália',        '25 milhões',    7692000);
+insert into Pais values(59, 'Nova Zelândia',    '4,8 milhões',   2680212);
+insert into Pais values(60, 'Grécia',           '10,7 milhões',  131957);
+insert into Pais values(61, 'África do Sul',    '57,8 milhões',  1220000);
+insert into Pais values(62, 'Equador',          '17,1 milhões',  283560);
+insert into Pais values(63, 'China',            '1,393 bilhão',  9597000);
+insert into Pais values(64, 'Alemanha',         '83 milhões',    357386);
+insert into Pais values(65, 'Indonésia',        '267,7 milhões', 1905000);
+insert into Pais values(66, 'Filipinas',        '106,7 milhões', 300000);
+insert into Pais values(67, 'Índia',            '1,353 bilhão',  3287000);
+insert into Pais values(68, 'Jordânia',         '9,956 milhões', 89342);
 
 insert into PontoTuristico values(
 1, 
@@ -117,9 +117,8 @@ insert into PontoTuristico values(
 1959, 
 1973, 
 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Sydney_Opera_House_from_the_east.jpg', 
-'https://pt.wikipedia.org/wiki/%C3%93pera_de_Sydney',
 58
-)
+);
 
 insert into PontoTuristico values(
 2, 
@@ -130,9 +129,8 @@ insert into PontoTuristico values(
 null,
 null,
 'https://www.escolhaviajar.com/wp-content/uploads/2015/01/DSCN2972.jpg',
-'https://en.wikipedia.org/wiki/Whitehaven_Beach',
 58
-)
+);
 
 insert into PontoTuristico values(
 3,
@@ -143,9 +141,8 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Lake_Hillier_2_Middle_Island_Recherche_Archipelago_NR_IV-2011.JPG',
-'https://pt.wikipedia.org/wiki/Lago_Hillier',
 58
-)
+);
 
 insert into PontoTuristico values(
 4,
@@ -156,9 +153,8 @@ insert into PontoTuristico values(
 1994,
 1997,
 'https://upload.wikimedia.org/wikipedia/commons/f/f8/01_Auckland_New_Zealand-1000137.jpg',
-'https://pt.wikipedia.org/wiki/Sky_Tower',
 59
-)
+);
 
 insert into PontoTuristico values(
 5,
@@ -169,9 +165,8 @@ insert into PontoTuristico values(
 null,
 null,
 'https://media-cdn.tripadvisor.com/media/photo-s/15/ca/a6/ea/wai-o-tapu-thermal-wonderland.jpg',
-'https://en.wikipedia.org/wiki/Waiotapu',
 59
-)
+);
 
 insert into PontoTuristico values(
 6,
@@ -182,9 +177,8 @@ insert into PontoTuristico values(
 1926,
 1963,
 'https://media-cdn.tripadvisor.com/media/photo-s/0f/2c/a6/33/new-zealand-maori-arts.jpg',
-'https://en.wikipedia.org/wiki/New_Zealand_M%C4%81ori_Arts_and_Crafts_Institute',
 59
-)
+);
 
 insert into PontoTuristico values(
 7,
@@ -195,9 +189,8 @@ insert into PontoTuristico values(
 null,
 1776,
 'https://ogimg.infoglobo.com.br/cultura/24334034-a2d-e77/FT1086A/652/bolshoi.jpg',
-'https://pt.wikipedia.org/wiki/Teatro_Bolshoi',
 1
-)
+);
 
 insert into PontoTuristico values(
 8,
@@ -208,9 +201,8 @@ insert into PontoTuristico values(
 1951,
 1956,
 'https://cdn.getyourguide.com/img/location/5b3ca45475392.jpeg/92.jpg',
-'https://vontadedeviajar.com/bunker-42-em-moscou/',
 1
-)
+);
 
 insert into PontoTuristico values(
 9,
@@ -221,9 +213,8 @@ insert into PontoTuristico values(
 1710,
 1851,
 'https://upload.wikimedia.org/wikipedia/commons/1/17/Spb_06-2012_Palace_Embankment_various_14.jpg',
-'https://pt.wikipedia.org/wiki/Hermitage',
 1
-)
+);
 
 insert into PontoTuristico values(
 10,
@@ -234,9 +225,8 @@ insert into PontoTuristico values(
 null,
 1996,
 'https://upload.wikimedia.org/wikipedia/commons/8/8f/A-bomb_dome.jpg',
-'https://pt.wikipedia.org/wiki/Memorial_da_Paz_de_Hiroshima',
 2
-)
+);
 
 insert into PontoTuristico values(
 11,
@@ -247,9 +237,8 @@ insert into PontoTuristico values(
 null,
 1880,
 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Nara_Park_-_panoramio_%282%29.jpg',
-'https://www.japan.travel/pt/destinations/kansai/nara/nara-park-and-around/',
 2
-)
+);
 
 insert into PontoTuristico values(
 12,
@@ -260,9 +249,8 @@ insert into PontoTuristico values(
 2008,
 2012,
 'https://upload.wikimedia.org/wikipedia/commons/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg',
-'https://guia.melhoresdestinos.com.br/tokyo-skytree-199-5542-l.html',
 2
-)
+);
 
 insert into PontoTuristico values(
 13,
@@ -273,9 +261,8 @@ insert into PontoTuristico values(
 null,
 1164,
 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Sanjusangendo_temple01s1408.jpg',
-'https://www.japan-guide.com/e/e3900.html',
 2
-)
+);
 
 insert into PontoTuristico values(
 14,
@@ -286,9 +273,8 @@ insert into PontoTuristico values(
 1984,
 1989,
 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/28/00/2f.jpg',
-'https://www.brazilkorea.com.br/conheca-um-dos-maiores-parques-tematicos-do-mundo-lotte-world-2/#',
 7
-)
+);
 
 insert into PontoTuristico values(
 15,
@@ -299,9 +285,8 @@ insert into PontoTuristico values(
 1405,
 1412,
 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Juhamnu%2C_Changdeokgung_-_Seoul%2C_Korea.JPG',
-'https://pt.wikipedia.org/wiki/Complexo_de_Pal%C3%A1cios_de_Ch%27angdokkgung',
 7
-)
+);
 
 insert into PontoTuristico values(
 16,
@@ -312,9 +297,8 @@ insert into PontoTuristico values(
 2013,
 2013,
 'https://tong.visitkorea.or.kr/cms/resource/12/1936512_image2_1.jpg',
-'https://blog.mykoreatrip.com/incheonsongwol-dong-fairy-tale-village-%ec%86%a1%ec%9b%94%eb%8f%99-%eb%8f%99%ed%99%94%eb%a7%88%ec%9d%84/',
 7
-)
+);
 
 insert into PontoTuristico values(
 17,
@@ -325,9 +309,8 @@ insert into PontoTuristico values(
 1893,
 1903,
 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Winter_Palace_Bogd_Khan_149185394_bfcc8db25b_b.jpg'
-'https://en.wikipedia.org/wiki/Winter_Palace_of_the_Bogd_Khan',
 8
-)
+);
 
 insert into PontoTuristico values(
 18,
@@ -338,9 +321,8 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Potanin%C5%AFv_ledovec.jpg',
-'https://pt.wikipedia.org/wiki/Glaciar_Potanin',
 8
-)
+);
 
 insert into PontoTuristico values(
 19,
@@ -351,9 +333,8 @@ insert into PontoTuristico values(
 1809,
 1925,
 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Zesp%C3%B3%C5%82_klasztoru_Gandan_%2812%29.jpg'
-'https://pt.qaz.wiki/wiki/Gandantegchinlen_Monastery',
 8
-)
+);
 
 insert into PontoTuristico values(
 20,
@@ -364,7 +345,6 @@ insert into PontoTuristico values(
 1996,
 2002,
 'https://media-cdn.tripadvisor.com/media/photo-s/0f/56/dc/98/photo0jpg.jpg',
-'https://pt.wikipedia.org/wiki/Bayterek',
 9
 )
 
@@ -377,7 +357,6 @@ insert into PontoTuristico values(
 2004,
 2006,
 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Astana_Architecture_01.jpg',
-'https://en.wikipedia.org/wiki/Palace_of_Peace_and_Reconciliation',
 9
 )
 
@@ -390,7 +369,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/7/74/IMG_7431-Sharyn_canyon.jpg',
-'https://pt.wikipedia.org/wiki/C%C3%A2nion_de_Charyn',
 9
 )
 
@@ -403,7 +381,6 @@ insert into PontoTuristico values(
 544,
 644,
 'https://upload.wikimedia.org/wikipedia/commons/4/46/Buddha_of_Bamiyan.jpg',
-'https://pt.wikipedia.org/wiki/Budas_de_Bami%C3%A3',
 10
 )
 
@@ -416,7 +393,6 @@ insert into PontoTuristico values(
 null,
 1919,
 'https://upload.wikimedia.org/wikipedia/commons/7/72/National_museum_of_Afghanistan.jpg',
-'https://en.wikipedia.org/wiki/National_Museum_of_Afghanistan',
 10
 )
 
@@ -429,7 +405,6 @@ insert into PontoTuristico values(
 null,
 1194,
 'https://upload.wikimedia.org/wikipedia/commons/2/23/Jam_afghan_architecture_harirud_brick.jpg',
-'https://pt.wikipedia.org/wiki/Minarete_de_Jam',
 10
 )
 
@@ -442,7 +417,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://iqaraislam.com/static/9e1fad67d903b72df2b8c7ea32f12f79/ed516/Caaba-em-Meca.jpg',
-'https://iqaraislam.com/caaba',
 47
 )
 
@@ -455,7 +429,6 @@ insert into PontoTuristico values(
 null,
 1865,
 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Masmak_castle.jpg',
-'https://pt.wikipedia.org/wiki/Forte_Masmak',
 47
 )
 
@@ -468,7 +441,6 @@ insert into PontoTuristico values(
 2018,
 null,
 'https://lp-cms-production.imgix.net/2019-06/9b26bcd772a85afdbc9d6a3f4cd4180d-madinat-jumeirah.jpg',
-'https://en.wikipedia.org/wiki/Madinat_Jumeirah',
 49
 )
 
@@ -481,7 +453,6 @@ insert into PontoTuristico values(
 null,
 2016,
 'https://www.dubai-online.com/wp-content/uploads/2019/10/ss_698094457.jpg',
-'https://en.wikipedia.org/wiki/Legoland_Dubai',
 49
 )
 
@@ -494,7 +465,6 @@ insert into PontoTuristico values(
 2007,
 2017,
 'https://media-cdn.tripadvisor.com/media/photo-s/16/31/ba/7c/louvre-abu-dhabi.jpg',
-'https://pt.wikipedia.org/wiki/Louvre_Abu_Dhabi',
 49
 )
 
@@ -507,7 +477,6 @@ insert into PontoTuristico values(
 1920,
 1929,
 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Dar_al_hajar_edit.jpg',
-'https://en.wikipedia.org/wiki/Dar_al-Hajar',
 50
 )
 
@@ -520,7 +489,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://photos.wikimapia.org/p/00/00/64/98/94_big.jpg',
-'https://en.wikipedia.org/wiki/Barran_Temple',
 50
 )
 
@@ -533,7 +501,6 @@ insert into PontoTuristico values(
 1804,
 null,
 'https://www.timetravelturtle.com/wp-content/uploads/2016/03/Vietnam-2016-540_feat.jpg',
-'https://pt.wikipedia.org/wiki/Cidade_Imperial_de_Hu%E1%BA%BF',
 42
 )
 
@@ -546,7 +513,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://i.redd.it/4j24ajfeyb721.png',
-'https://en.wikipedia.org/wiki/Ban_Gioc%E2%80%93Detian_Falls',
 42
 )
 
@@ -559,7 +525,6 @@ insert into PontoTuristico values(
 1566,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Pha_That_Luang%2C_Vientiane%2C_Laos.jpg',
-'https://pt.wikipedia.org/wiki/Pha_That_Luang',
 43
 )
 
@@ -572,7 +537,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://lp-cms-production.imgix.net/2019-06/bac74c7535fc9079461678dd8737d5d1-bayon.jpg',
-'https://en.wikipedia.org/wiki/Bayon',
 44
 )
 
@@ -585,7 +549,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Hanging_Gardens_of_Babylon.jpg',
-'https://pt.wikipedia.org/wiki/Jardins_Suspensos_da_Babil%C3%B3nia',
 56
 )
 
@@ -598,7 +561,6 @@ insert into PontoTuristico values(
 null,
 -550,
 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Miniaturk_009.jpg',
-'https://pt.wikipedia.org/wiki/Templo_de_%C3%81rtemis',
 57
 )
 
@@ -611,7 +573,6 @@ insert into PontoTuristico values(
 null,
 -321,
 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Mausoleum_at_Halicarnassus_by_Ferdinand_Knab_%281886%29_cropped.png',
-'https://pt.wikipedia.org/wiki/Mausol%C3%A9u_de_Halicarnasso',
 57
 )
 
@@ -624,7 +585,6 @@ insert into PontoTuristico values(
 1780,
 1797,
 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Haga_lawn.jpg',
-'https://en.wikipedia.org/wiki/Hagaparken',
 5
 )
 
@@ -637,7 +597,6 @@ insert into PontoTuristico values(
 1911,
 1923,
 'https://media.timeout.com/images/105146408/630/472/image.jpg',
-'https://en.wikipedia.org/wiki/Stockholm_City_Hall',
 5
 )
 
@@ -650,7 +609,6 @@ insert into PontoTuristico values(
 null,
 1377,
 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Gripsholms_slott_view2.jpg/420px-Gripsholms_slott_view2.jpg',
-'https://pt.wikipedia.org/wiki/Castelo_de_Gripsholm',
 5
 )
 
@@ -663,7 +621,6 @@ insert into PontoTuristico values(
 1927,
 1967,
 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Sergels_torg_mot_v%C3%A4st_2009.jpg',
-'https://en.wikipedia.org/wiki/Sergels_torg',
 5
 )
 
@@ -676,7 +633,6 @@ insert into PontoTuristico values(
 2003,
 2007,
 'https://lp-cms-production.imgix.net/2019-06/de0dd036841a7ac875d551ed01607b84-oslo-opera-house.jpg',
-'https://pt.wikipedia.org/wiki/%C3%93pera_de_Oslo',
 6
 )
 
@@ -689,7 +645,6 @@ insert into PontoTuristico values(
 1824,
 1849,
 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Slottsplassen.jpg/300px-Slottsplassen.jpg',
-'https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Real_de_Oslo',
 6
 )
 
@@ -702,7 +657,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Tromso_Troms%C3%B8_Norway_tunliweb_02.jpg',
-'https://pt.wikipedia.org/wiki/Troms%C3%B8_(cidade)',
 6
 )
 
@@ -715,7 +669,6 @@ insert into PontoTuristico values(
 null,
 1963,
 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Royal_and_Ancient_Polar_Bear_Society_in_Hammerfest_2013.jpg',
-'https://en.wikipedia.org/wiki/Royal_and_Ancient_Polar_Bear_Society',
 6
 )
 
@@ -728,7 +681,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://cozinha-italiana.net/wp-content/uploads/2018/11/vesuvio-673x381.jpg',
-'https://planetaeuropa.com/italia/como-ir-de-pompeia-ao-vesuvio-como-subir-o-vulcao-passeio-vesuvio/',
 3
 )
 
@@ -741,7 +693,6 @@ insert into PontoTuristico values(
 1386,
 1965,
 'https://upload.wikimedia.org/wikipedia/commons/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg',
-'https://pt.wikipedia.org/wiki/Catedral_de_Mil%C3%A3o',
 3
 )
 
@@ -754,7 +705,6 @@ insert into PontoTuristico values(
 68,
 79,
 'https://static.jojowiki.com/images/a/a1/latest/20200130220947/Colosseum_manga.png',
-'https://super.abril.com.br/mundo-estranho/o-que-foi-o-coliseu-de-roma/',
 3
 )
 
@@ -767,7 +717,6 @@ insert into PontoTuristico values(
 null,
 null,
 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Fortress_of_Guaita_2013-09-19.jpg',
-'https://en.wikipedia.org/wiki/Guaita',
 4
 )
 
@@ -780,7 +729,6 @@ insert into PontoTuristico values(
 1884,
 1894,
 'https://upload.wikimedia.org/wikipedia/commons/0/00/Piazza_del_Campo%2C_Siena%2C_Tuscany_%285772001588%29.jpg',
-'https://en.wikipedia.org/wiki/Palazzo_Pubblico_(San_Marino)',
 4
 )
 
@@ -793,7 +741,6 @@ insert into PontoTuristico values(
 1992,
 1996,
 'https://upload.wikimedia.org/wikipedia/commons/8/81/Entrance_to_Legoland_Windsor.jpg',
-'https://pt.wikipedia.org/wiki/LEGOLAND_Windsor',
 38
 )
 
@@ -806,7 +753,6 @@ insert into PontoTuristico values(
 1999,
 2000,
 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0a/91/40/1e.jpg',
-'https://pt.wikipedia.org/wiki/London_Eye',
 38
 )
 
@@ -2188,29 +2134,29 @@ null,
 2
 )
 
-insert into Pais_PontoTuristico(1,   1,   58,          'Oceania')
-insert into Pais_PontoTuristico(2,   2,   58,          'Oceania')
-insert into Pais_PontoTuristico(3,   3,   58,          'Oceania')
-insert into Pais_PontoTuristico(4,   4,   59,          'Oceania')
-insert into Pais_PontoTuristico(5,   5,   59,          'Oceania')
-insert into Pais_PontoTuristico(6,   6,   59,          'Oceania')
-insert into Pais_PontoTuristico(7,   7,   1,              'Ásia')
-insert into Pais_PontoTuristico(8,   8,   1,              'Ásia')
-insert into Pais_PontoTuristico(9,   9,   1,              'Ásia')
-insert into Pais_PontoTuristico(10,  10,  2,              'Ásia')
-insert into Pais_PontoTuristico(11,  11,  2,              'Ásia')
-insert into Pais_PontoTuristico(12,  12,  2,              'Ásia')
-insert into Pais_PontoTuristico(13,  13,  2,              'Ásia')
-insert into Pais_PontoTuristico(14,  14,  7,              'Ásia')
-insert into Pais_PontoTuristico(15,  15,  7,              'Ásia')
-insert into Pais_PontoTuristico(16,  16,  7,              'Ásia')
-insert into Pais_PontoTuristico(17,  17,  8,              'Ásia')
-insert into Pais_PontoTuristico(18,  18,  8,              'Ásia')
-insert into Pais_PontoTuristico(19,  19,  8,              'Ásia')
-insert into Pais_PontoTuristico(20,  20,  9,              'Ásia')
-insert into Pais_PontoTuristico(21,  21,  9,              'Ásia')
-insert into Pais_PontoTuristico(22,  22,  9,              'Ásia')
-insert into Pais_PontoTuristico(23,  23,  10,             'Ásia')
+insert into Pais_PontoTuristico values(1,   1,   58,          'Oceania')
+insert into Pais_PontoTuristico values (2,   2,   58,          'Oceania')
+insert into Pais_PontoTuristico values(3,   3,   58,          'Oceania')
+insert into Pais_PontoTuristico values(4,   4,   59,          'Oceania')
+insert into Pais_PontoTuristico values(5,   5,   59,          'Oceania')
+insert into Pais_PontoTuristico values(6,   6,   59,          'Oceania')
+insert into Pais_PontoTuristico values(7,   7,   1,              'Ásia')
+insert into Pais_PontoTuristico values(8,   8,   1,              'Ásia')
+insert into Pais_PontoTuristico values(9,   9,   1,              'Ásia')
+insert into Pais_PontoTuristico values(10,  10,  2,              'Ásia')
+insert into Pais_PontoTuristico values(11,  11,  2,              'Ásia')
+insert into Pais_PontoTuristico values(12,  12,  2,              'Ásia')
+insert into Pais_PontoTuristico values(13,  13,  2,              'Ásia')
+insert into Pais_PontoTuristico values(14,  14,  7,              'Ásia')
+insert into Pais_PontoTuristico values(15,  15,  7,              'Ásia')
+insert into Pais_PontoTuristico values(16,  16,  7,              'Ásia')
+insert into Pais_PontoTuristico values(17,  17,  8,              'Ásia')
+insert into Pais_PontoTuristico values(18,  18,  8,              'Ásia')
+insert into Pais_PontoTuristico values(19,  19,  8,              'Ásia')
+insert into Pais_PontoTuristico values(20,  20,  9,              'Ásia')
+insert into Pais_PontoTuristico values(21,  21,  9,              'Ásia')
+insert into Pais_PontoTuristico values(22,  22,  9,              'Ásia')/*até aqui*/
+insert into Pais_PontoTuristico(23,  23,  10,             'Ásia');
 insert into Pais_PontoTuristico(24,  24,  10,             'Ásia')
 insert into Pais_PontoTuristico(25,  25,  10,             'Ásia')
 insert into Pais_PontoTuristico(26,  26,  47,             'Ásia')

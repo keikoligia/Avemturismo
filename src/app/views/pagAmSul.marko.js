@@ -16,7 +16,7 @@ var marko_template = module.exports = require("marko/src/html").t(__filename),
 function render(input, out, __component, component, state) {
   var data = input;
 
-  out.w("<!DOCTYPE html><html lang=br><head><title>Avemturismo</title><link rel=stylesheet type=text/css href=/estatico//css/estilo.css><link rel=\"shortcut icon\" href=/estatico/res/mapamundi_logo.png type=image/x-icon></head><body><div class=wrapper><nav><ul class=menu><li><a href=/pagInicial>Home</a></li><li><a href=#>Maravilhas do mundo</a><ul><li><a href=/pagModernidade>Moderno</a></li><li><a href=/pagAntiguidade>Antigo</a></li><li><a href=/pagNatural>Natural</a></li></ul></li></ul></nav><img src=/estatico/res/amsul.png style=\"width: 90%; height: 90%;\"><img src=/estatico/res/pin.png class=rpin id=pin-br style=\"width: 2%;\" onclick=abrirModal();><img src=/estatico/res/pin.png class=rpin id=pin-arg style=\"width: 2%;\"><img src=/estatico/res/pin.png class=rpin id=pin-chile style=\"width: 2%;\"><img src=/estatico/res/pin.png class=rpin id=pin-peru style=\"width: 2%;\"><img src=/estatico/res/pin.png class=rpin id=pin-equa style=\"width: 2%;\"><img src=/estatico/res/pin.png class=rpin id=pin-gui style=\"width: 2%;\"><img src=/estatico/res/pin.png class=rpin id=pin-colom style=\"width: 2%;\"></div><div id=fundo></div><div id=modal>");
+  out.w("<!DOCTYPE html><html lang=br><head><title>Avemturismo</title><link rel=stylesheet type=text/css href=/estatico//css/estilo.css><link rel=\"shortcut icon\" href=/estatico/res/mapamundi_logo.png type=image/x-icon></head><body><div class=wrapper><nav><ul class=menu><li><a href=/pagInicial>Home</a></li><li><a href=#>Maravilhas do mundo</a><ul><li><a href=/pagModernidade>Moderno</a></li><li><a href=/pagAntiguidade>Antigo</a></li><li><a href=/pagNatural>Natural</a></li></ul></li></ul></nav><form action=/pagAmSul method=post><img src=/estatico/res/amsul.png style=\"width: 90%; height: 90%;\"><img src=/estatico/res/pin/png class=rpin id=pin-br style=\"width: 2%;\" onclick=abrirModal();><a href onclick=\"this.href='/pagAmSul/37'\">aaaa</a></form></div><div id=fundo></div><div id=modal>");
 
   var $for$0 = 0;
 
@@ -36,7 +36,7 @@ function render(input, out, __component, component, state) {
 
   init_components_tag({}, out);
 
-  await_reorderer_tag({}, out, __component, "44");
+  await_reorderer_tag({}, out, __component, "40");
 
   _preferred_script_location_tag({}, out);
 
